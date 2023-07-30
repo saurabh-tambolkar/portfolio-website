@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <title>Dynamic website</title>
+  </head>
+  <style>
+    *{ 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    } 
+    html{
+    scroll-behavior: smooth; 
+    }
+  </style>
+  <body>
+    <hr>
+    <div class="contact py-5" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="col-md-4 col-12 mx-auto">
+        <form action="/contact" method="POST">
+      <div class="mb-3">
+        <div class="py-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+            name="name"
+            placeholder="name"
+            type="name"
+            class="form-control"
+            id="name"
+            aria-describedby="nameHelp"
+            />
+        </div>
+        <div class="py-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input
+            name="email"
+            placeholder="email"
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">We'll never share your email with
+                anyone else.</div>
+        </div>
+        <div class="py-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input
+            name="phone"
+            placeholder="phone"
+            type="phone"
+            class="form-control"
+            id="phone"
+            />
+        </div>
+        <div class="py-3">
+            <label for="msg" class="form-label">Message</label>
+            <input
+            name="message"
+            placeholder="message"
+            type="text"
+            class="form-control"
+            id="msg"
+            aria-describedby="msgHelp"
+            />
+            <div id="msg" class="py-2 form-text">I will contact you once i get your response.</div>
+        </div>
+      <button type="submit" style="height: 20px; " class="btn btn-sm py-3 btn-primary d-flex align-items-center">Submit</button>
+    
+      </div>
+     
+      </div>
+    </form>
+    </div>
+    </div>
+    <div class="container-fluid row mb-5">
+      <div class="col-md-12 col-12 d-flex justify-content-center">
+        <a href="#navbar">
+          <button class="btn btn-outline-secondary">Return to Home 	&uarr;</button></a>
+      </div>
+    </div>
+    
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+  </body>
+</html>

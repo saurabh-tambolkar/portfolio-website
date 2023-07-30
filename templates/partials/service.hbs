@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .box{
+        background: #ffffff;
+        text-align: center;
+        width: fit-content;
+        height: 150px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow:2px 5px 10px #464749;
+        transition: all 0.5s ease;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box:hover{
+        cursor: pointer;
+        background-color: #deebdd;
+        background-image: linear-gradient(45deg, #deebdd 0%, #a0f0a8 74%);
+        box-shadow: 1px 2px 20px #464749;
+        transform: scale(1.05);
+    }
+    @media only screen and (max-width: 600px) {
+        .box{
+            width: 100vw;
+            margin-bottom: 20px;
+        }
+        .box h1{
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .box p{
+            font-size: 0.6rem;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .box{
+            width: 100vw;
+            margin-bottom: 20px;
+        }
+        .box h1{
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .box p{
+            font-size: 0.6rem;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .box{
+            margin-bottom: 20px;
+        }
+        .box h1{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .box p{
+            font-size: 0.8rem;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        .box{
+            margin-bottom: 20px;
+        }
+        .box h1{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .box p{
+            font-size: 0.8rem;
+        }
+    }
+
+    @media only screen and (max-width: 1800px) {
+        .box{
+            margin-bottom: 20px;
+        }
+        .box h1{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .box p{
+            font-size: 0.8rem;
+        }
+    }
+</style>
+<body>
+    <div class="conatiner-fluid" id="services">
+        <div class="row ">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Our Services</h1>
+                <h5 class="text-center py-2">This is what i provide</h5>
+                <div class="row py-5">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Web Design</h1>
+                                <p class="py-2">I can design web sites as it is the first towards successful devlopment of sites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Frontend coding</h1>
+                                <p>I can code a frontend part with REACT JS and HTML,CSS,JS by using bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Backend coding</h1>
+                                <p>use of NODE JS and EXPRESS JS is done at backend devlopment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row py-2">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Database</h1>
+                                <p>Database is used to store the data which users of website enters and shows his/her interest.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Hosting</h1>
+                                <p>web site is made available to the users to interact with it and know about the business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services">
+                                <div class="icon">
+                                    
+                                </div>
+                                <h1>Maintaining</h1>
+                                <p>After devlopment the site is maintained to keep track of all the data and improve SEO.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</body>
+</html>
